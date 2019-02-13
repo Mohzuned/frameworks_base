@@ -37,7 +37,7 @@ import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseArray;
-
+import android.provider.Settings;
 import com.android.ims.ImsException;
 import com.android.ims.ImsManager;
 import com.android.internal.annotations.VisibleForTesting;
@@ -84,10 +84,10 @@ public class MobileSignalController extends SignalController<
     private boolean mRoamingIconAllowed;
     private boolean mShow4gForLte;
 
-    private static final String ROAMING_INDICATOR_ICON =
-            "system:" + Settings.System.ROAMING_INDICATOR_ICON;
-    private static final String SHOW_FOURG_ICON =
-            "system:" + Settings.System.SHOW_FOURG_ICON;
+//    private static final String ROAMING_INDICATOR_ICON =
+//            "system:" + Settings.System.ROAMING_INDICATOR_ICON;
+//    private static final String SHOW_FOURG_ICON =
+//            "system:" + Settings.System.SHOW_FOURG_ICON;
 
     // TODO: Reduce number of vars passed in, if we have the NetworkController, probably don't
     // need listener lists anymore.

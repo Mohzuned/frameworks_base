@@ -80,8 +80,6 @@ public class MobileSignalController extends SignalController<
     private MobileIconGroup mDefaultIcons;
     private Config mConfig;
 
-<<<<<<< HEAD
-=======
     private ImsManager mImsManager;
     private boolean mRoamingIconAllowed;
     private boolean mShow4gForLte;
@@ -91,7 +89,6 @@ public class MobileSignalController extends SignalController<
     private static final String SHOW_FOURG_ICON =
             "system:" + Settings.System.SHOW_FOURG_ICON;
 
->>>>>>> 41f1705... Added volte icons
     // TODO: Reduce number of vars passed in, if we have the NetworkController, probably don't
     // need listener lists anymore.
     public MobileSignalController(Context context, Config config, boolean hasMobileData,

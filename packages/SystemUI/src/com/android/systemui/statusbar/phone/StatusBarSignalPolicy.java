@@ -410,11 +410,9 @@ public class StatusBarSignalPolicy implements NetworkControllerImpl.SignalCallba
         public boolean roaming;
         public boolean needsLeadingPadding;
         public String typeContentDescription;
-<<<<<<< HEAD
-=======
         public Context context;
         public int volteId;
->>>>>>> 41f1705... Added volte icons
+
 
         private MobileIconState(int subId) {
             super();
